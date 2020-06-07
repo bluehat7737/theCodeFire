@@ -15,12 +15,18 @@
   width: 26px;
 }
 
+#NavBar {
+  position: fixed;
+  z-index: 10;
+}
+
 .navbar {
-  width: 100%;
+  width: 100vw;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 
 .navItem {
@@ -30,26 +36,25 @@
 }
 
 .mainBox {
-  position: relative;
-  height: calc(100vh - 100px);
   background: linear-gradient(
       313.33deg,
       #f27a38 -7.28%,
       rgba(255, 255, 255, 0) 108.35%
     ),
     #ea507f;
+  height: 100vh;
 }
 
 .img_footer {
   position: absolute;
-  width: 714px;
-  left: -100px;
-  bottom: 0;
+  width: 100%;
+  bottom: -1px;
 }
 
 .mainBoxText {
+  width: 20rem;
   position: relative;
-  top: 2rem;
+  top: 5rem;
   left: 2rem;
   font-size: 21px;
   color: white;
