@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Arbutus Slab", serif;
+}
+
+.logo {
+  width: 140px;
+  height: 40px;
+}
+
+.menu_logo {
+  width: 26px;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navItem {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainBox {
+  position: relative;
+  height: calc(100vh - 100px);
+  background: linear-gradient(
+      313.33deg,
+      #f27a38 -7.28%,
+      rgba(255, 255, 255, 0) 108.35%
+    ),
+    #ea507f;
+}
+
+.img_footer {
+  position: absolute;
+  width: 714px;
+  left: -100px;
+  bottom: 0;
+}
+
+.mainBoxText {
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+  font-size: 21px;
+  color: white;
+}
