@@ -38,8 +38,8 @@
 .mainBox {
   background: linear-gradient(
       313.33deg,
-      #f27a38 -7.28%,
-      rgba(255, 255, 255, 0) 108.35%
+      #f27a38 -10.28%,
+      rgba(255, 255, 255, 0) 73.35%
     ),
     #ea507f;
   height: 100vh;
@@ -58,4 +58,56 @@
   left: 2rem;
   font-size: 21px;
   color: white;
+}
+
+.img_rocket {
+  width: 100px;
+  display: block;
+  position: absolute;
+  top: 16rem;
+  left: 4rem;
+}
+
+.img_eclipse {
+  display: block;
+  position: absolute;
+  top: 34rem;
+  left: 2rem;
+}
+
+.play {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  float: right;
+  right: 3rem;
+  top: 27rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  animation: blink 1.5s infinite;
+  z-index: 20;
+}
+
+.play img {
+  position: relative;
+  margin: 30% auto;
+  height: 40%;
+  width: 40%;
+}
+
+@keyframes blink {
+  0% {
+    box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  50% {
+    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
 }
